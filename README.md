@@ -1,2 +1,2 @@
 # Odin Recipes
-A website for your favourite recipes!
+A website for Odin's favourite recipes!
