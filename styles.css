@@ -1,0 +1,39 @@
+* {
+    font-family: Georgia, "Times New Roman", serif;
+    background-color: gold;
+    color: black;
+}
+
+#title {
+    text-align: center;
+    font-size: 50px;
+    height: 65px;
+    width: auto;
+    background-color: aqua;
+}
+
+ul {
+    font-size: 18px;
+    background-color: red;
+}
+
+li {
+    background-color: green;
+}
+
+a {
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: blue;
+}
+
+#first {
+    text-align: left;
+}
+
+#second {
+    text-align: center;
+}
+
+#third {
+    text-align: right;
+}
