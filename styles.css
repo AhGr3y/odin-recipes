@@ -1,7 +1,10 @@
 * {
     font-family: Georgia, "Times New Roman", serif;
-    background-color: rgba(255, 255, 255, 0.36);
-    color: rgba(255, 60, 60, 0.962);
+    color: rgba(46, 46, 46, 0.962);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0px solid red;
 }
 
 a {
@@ -9,14 +12,48 @@ a {
     font-size: 18px;
 }
 
-.main-title {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 50px;
-    height: 65px;
+li {
+    padding-bottom: 5px;
 }
 
-.title {
+.main-title-bg {
+    background-color: rgb(255, 124, 0);
+}
+
+.main-title {
+    text-align: center;
+    font-size: 24px;
+    padding: 12px;
+}
+
+#recipes-list {
+    text-align: center;
+    margin-top: 24px;
+}
+
+.recipe-link {
+    display: inline-block;
+    margin: 0 1rem;
+    border: 1px solid black;
+    padding: 1rem;
+    background-color: rgba(46, 46, 46, 0.962);
+}
+
+.recipe-link a {
+    color: gold;
+}
+
+#link-homepage {
+    font-size: 18px;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.recipe-title {
+    padding: 1rem;
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
     font-style: italic;
 }
 
@@ -24,18 +61,20 @@ a {
     text-align: center;
 }
 
-#link-homepage {
-    color: rgba(255, 60, 60, 0.5);
+.sub-title {
+    margin: 1rem;
+    font-style: italic;
 }
 
-#first {
-    text-align: left;
+.description-content {
+    margin: 0 1rem;
 }
 
-#second {
-    text-align: center;
+.ingredients-content,
+.steps-content {
+    margin: 0 2rem;
 }
 
-#third {
-    text-align: right;
+.steps-content {
+    margin-bottom: 1rem;
 }
